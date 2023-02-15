@@ -2,9 +2,9 @@ body{
     margin: 0;
 }
 
-.area-border{
+/* .area-border{
     border: 2px solid black;
-}
+} */
 
 .container{
     height: 100vh;
@@ -61,3 +61,25 @@ body{
 .posts{
     grid-area: posts;
 }
+
+.post-card{
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.card-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-links > a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-links > a:hover{
+    text-decoration: underline;
+    background-color: dodgerblue;
+    color: white;
+}
+
