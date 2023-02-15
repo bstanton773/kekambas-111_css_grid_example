@@ -2,6 +2,9 @@ body{
     margin: 0;
 }
 
+.area-border{
+    border: 2px solid black;
+}
 
 .container{
     height: 100vh;
@@ -16,6 +19,18 @@ body{
 
 .navbar{
     grid-area: navbar;
+    background-color: dodgerblue;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 2em;
 }
 
 .prof-info{
