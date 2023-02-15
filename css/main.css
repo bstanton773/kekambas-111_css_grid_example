@@ -7,7 +7,7 @@ body{
 } */
 
 .container{
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 10vh 40vh 1fr;
@@ -65,6 +65,7 @@ body{
 .post-card{
     border: 1px solid black;
     padding: 1em;
+    margin: 2vh 0;
 }
 
 .card-links{
